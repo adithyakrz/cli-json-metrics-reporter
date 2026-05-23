@@ -58,24 +58,23 @@ Run the report script via your active terminal shell or Miniconda environment:
 python reporter.py
 ```
 
-## Executive Terminal Preview
+##  Terminal Preview
 
-==================================================
-📈 MACHINE LEARNING METRICS REPORT
-==================================================
-Project Name: Deep_CNN_Classifier
-Framework: PyTorch 2.5
+### Project Metadata
+* **Project Name:** `Deep_CNN_Classifier`
+* **Framework:** `PyTorch 2.5`
 
-[TRAINING PARAMS]
---------------------------------------------------
-Epochs: 150
-Learning Rate: 0.00100
-Batch Size: 32
+### ⚙️ Training Parameters
+| Parameter | Value |
+| :--- | :--- |
+| **Epochs** | 150 |
+| **Learning Rate** | 0.001 |
+| **Batch Size** | 32 |
 
-[EVALUATION METRICS]
---------------------------------------------------
-Accuracy: 94.25% * [High Performance Target Cleared]
-Precision: 91.80%
-Recall: 93.12%
-Loss: 0.1420
-==================================================
+### 📊 Evaluation Metrics
+| Metric | Value | Status Flag |
+| :--- | :--- | :--- |
+| **Accuracy** | 94.25% | ✨ `[High Performance Target Cleared]` |
+| **Precision** | 91.80% | — |
+| **Recall** | 93.12% | — |
+| **Loss** | 0.1420 | — |
